@@ -27,9 +27,9 @@ header h1 {
 }
 
 .service-icons {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   padding: 50px 0;
 }
 
@@ -37,6 +37,9 @@ header h1 {
   display: block;
   text-align: center;
   padding: 15px;
+  width: 150px;
+  height: 180px;
+  margin: 15px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -63,7 +66,7 @@ header h1 {
   opacity: 0.9;
 }
 
-/* Color variations for each service with pastel shades */
+/* Pastel color variations */
 #jellyfin {
   background-color: #A3A1FF; /* Pastel Purple */
 }

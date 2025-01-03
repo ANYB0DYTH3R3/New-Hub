@@ -28,7 +28,7 @@ header h1 {
 
 .service-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   padding: 50px 0;
@@ -38,13 +38,14 @@ header h1 {
   display: block;
   text-align: center;
   width: 150px;
+  height: 180px;
   margin: 15px;
-  padding: 20px;
+  padding: 15px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; /* Remove underline from links */
 }
 
 .service img {
